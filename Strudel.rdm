@@ -1,0 +1,54 @@
+Strudel is a JavaScript-based live coding environment for creating music. Here's an introduction to Strudel:
+
+## 🥐 Strudel: JavaScript-Powered Live Coding for Music
+
+Strudel is a modern, browser-based live coding environment that allows you to create music using JavaScript. It combines the power of functional programming with the flexibility of web technologies to provide an expressive platform for algorithmic composition and performance.
+
+### 🌟 Key Features
+
+1. **Browser-based**: Run Strudel directly in your web browser, no installation required.
+
+2. **JavaScript-powered**: Leverage your existing JavaScript knowledge for music creation.
+
+3. **Pattern-based**: Create complex musical patterns using functional programming concepts.
+
+4. **Real-time performance**: Modify code on-the-fly during live performances.
+
+5. **Web Audio API**: Utilizes the Web Audio API for high-quality sound generation.
+
+### 🚀 Getting Started
+
+To start using Strudel, you can simply visit the Strudel website and begin coding in your browser. However, for a local setup:
+
+1. Clone the Strudel repository from GitHub.
+2. Install dependencies using npm or yarn.
+3. Run the development server.
+
+### 🎵 Basic Example
+
+Here's a simple example of creating a musical pattern in Strudel:
+
+```javascript
+stack(
+  s("bd*2, [~ cp]"),
+  note("c3 eb3 g3").s("sawtooth").cutoff(500)
+).out()
+```
+
+This code creates a basic drum pattern with a bassline using a sawtooth wave.
+
+### 🔧 Key Concepts
+
+- **Patterns**: The core building blocks of music in Strudel.
+- **Stacks**: Combine multiple patterns vertically.
+- **Sequences**: Arrange patterns horizontally in time.
+- **Effects**: Apply audio effects to your patterns.
+
+Strudel offers a powerful and accessible way to create music through code, making it an exciting tool for both beginners and experienced live coders. Its integration with web technologies opens up new possibilities for networked performances and online collaboration.
+
+Citations:
+[1] https://livecode.fandom.com/wiki/Introduction_of_LiveCode
+[2] https://github.com/livecode/livecode/blob/develop/docs/guides/LiveCode%20Builder%20Language%20Reference.md
+[3] https://livecode.com/topic/introduction-6/
+[4] https://livecode.com/topic/introduction-2/
+[5] https://www.youtube.com/watch?v=3AbV4Evqy8E
